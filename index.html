@@ -1,0 +1,82 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <title>Join InitialEyes!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="CSS/main.css" rel="stylesheet">
+</head>
+   
+<body class="form_bgimage">
+
+<div class="form-check"> 
+    <h1 class="whitetext"> Join us!</h1>    
+
+<form>
+    <div class="form_entry">
+    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+    <label class="form-check-label" for="defaultCheck1">
+    Yes, I want to be part of InitialEyes!
+    </label>
+    </div>
+</form>
+    
+</div>
+<div class="form_entry">         
+    <p class="whitetext">
+        In the form below, please share your name, email, phone number, level of desired engagement, and potential indigenous communities with whom we could partner. <br>
+        We want to collaborate with you to protect disappearing cultures and environments around the world!
+    </p>
+</div>
+ 
+<form action="https://formspree.io/xwknpaak" method="post">
+    <div class="form_entry">
+        <label>Enter your full name:</label>
+        <input type="text" id="name" name="fullname">
+    </div>
+    <div class="form_entry">
+        <label>Enter your email address:</label>
+        <input type="email" id="email" name="email">
+    </div>
+    <div class="form_entry">
+        <label>Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+    </div>
+    <div class="form_entry">
+        <label>Choose your desired level of engagement:</label>
+        <select name="engagement">
+            <option value="supporter">Email update</option>
+            <option value="donor" selected>Donate</option>
+            <option value="volunteer">Volunteer in U.S.</option>
+            <option value="travel">Volunteer in South America</option>
+            <option value="collaborate">Long-term Community Pledge</option>
+        </select>
+    </div>
+    <div class="form_entry">
+        <label>Choose the option that best describes you:</label><br>
+        <input type="radio" id="individual" name="entity" value="individual">
+            <label>Individual</label><br>
+        <input type="radio" id="business" name="entity" value="business">
+            <label>Professional</label><br>
+        <input type="radio" id="academicinsitution" name="entity" value="academicinsitution">
+            <label>Academic Insitution</label><br>
+        <input type="radio" id="nonprofit" name="entity" value="nonprofit">
+            <label>Nonprofit Organization</label><br>
+        <input type="radio" id="other" name="entity" value="other">
+            <label>Other</label>
+            <input type="text" id="othertext" name="entitytext">
+    </div>
+    <div>
+        <textarea name="description" rows="10" cols="100">
+           Please share any information about indigenous communities that you believe would like to collaborate with us:
+        </textarea>
+    </div>
+    <input type="submit" value="Send">
+</form>
+
+    
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
