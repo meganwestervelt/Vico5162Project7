@@ -1,1 +1,12 @@
-class="card-text"
+.paddingphoto {padding:20px}
+
+.marginphoto {margin: 20px}
+
+@media screen and (min-width: 768px) {
+    p{column-count:2}
+}
+
+@media screen and (min-width: 1024px) {
+    p{column-count:3}
+}
+
